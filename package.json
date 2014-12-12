@@ -1,5 +1,5 @@
 {
-  "name": "wtl",
+  "name": "wtl-node",
   "version": "0.0.0",
   "dependencies": {},
   "devDependencies": {
@@ -38,5 +38,19 @@
   },
   "scripts": {
     "test": "grunt test"
-  }
+  },
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/billfienberg/wtl-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billfienberg/wtl-node/issues"
+  },
+  "homepage": "https://github.com/billfienberg/wtl-node"
 }
